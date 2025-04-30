@@ -1,5 +1,6 @@
 {
-    // "watch": ["src"],
+    "watch": ["src"],
     "exec": "npx ts-node ./src/index.ts",
+    "ext": "ts,json",
     "legacyWatch": true
 }
