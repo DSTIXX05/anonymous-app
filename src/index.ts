@@ -7,12 +7,6 @@ app.use(express.json());
 
 app.use('/me', userRouter);
 
-// app.get("/", (req:Request, res:Response) =>  {
-//     res.send("Hello, World!");
-//     console.log("testing for a restart")
-//     }
-// );
-
 app.listen(3000, () => {
   console.log("Server is running on port 3000");
 });
